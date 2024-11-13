@@ -1,0 +1,22 @@
+.image-container img {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+}
+body{
+    background-color: rgba(38, 38, 58, 0.74);
+    color: aliceblue;
+}
+h4{
+    color: aqua;
+}
+.adList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
